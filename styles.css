@@ -23,6 +23,8 @@
   --paper: #f3f1ff;
 }
 html {
+  scroll-behavior: smooth;
+
   scroll-padding-top: env(safe-area-inset-top, 0px);
 }
 *,
