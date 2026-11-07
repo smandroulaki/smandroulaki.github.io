@@ -104,6 +104,24 @@ h1 span:hover {
 h1 span.spin {
   animation: spin 0.7s;
 }
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .smiley {
+    position: absolute;
+    right: 50px;
+    font-size: 3.5rem;
+    transform: rotate(18deg) translateY(-50px);
+  }
+
+  .jobs {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
+
 @keyframes drop {
   from {
     transform: translateY(-120%) rotate(20deg);
@@ -457,6 +475,12 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .jobs {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
 }
 
 /* hair lab */
