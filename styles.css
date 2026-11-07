@@ -109,18 +109,26 @@ h1 span.spin {
 
 @media (max-width: 700px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .smiley {
-    position: absolute;
-    right: 50px;
     font-size: 3.5rem;
-    transform: rotate(18deg) translateY(-50px);
+    transform: rotate(18deg) translateY(-20px);
+  }
+
+  .desc {
+    line-height: 1.2;
   }
 
   .jobs {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1080px) {
+  h1 {
+    font-size: 6.5rem;
   }
 }
 
@@ -285,6 +293,12 @@ h2 {
   font-family: Caveat, cursive;
   font-size: 30px;
   margin: 28px 0 0;
+}
+
+@media (max-width: 1080px) {
+  .stickers {
+    gap: 1rem;
+  }
 }
 
 /* projects */
