@@ -185,6 +185,20 @@
         "--c": "#FF0F80 ",
         "--on-bg": "#F0D3F7",
       },
+      {
+        "--bg": "#77625C",
+        "--a": "#B2B1CF",
+        "--b": "#98D2EB",
+        "--c": "#d3cbc5 ",
+        "--on-bg": "#E1F2FE",
+      },
+      {
+        "--bg": "#410B13",
+        "--a": "#BA1F33",
+        "--b": "#91171F",
+        "--c": "#CD5D67 ",
+        "--on-bg": "#EAEAEA",
+      },
     ],
     n = 0,
     root = document.documentElement;
