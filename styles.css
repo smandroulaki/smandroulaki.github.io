@@ -592,6 +592,10 @@ input[type="color" i]::-webkit-color-swatch-wrapper {
   height: 100%;
 }
 
+.colorpick-eyedropper-input-trigger {
+  display: none;
+}
+
 .bubble {
   position: relative;
   background: var(--paper);
