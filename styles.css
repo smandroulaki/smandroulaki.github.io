@@ -633,7 +633,7 @@ input[type="color" i]::-webkit-color-swatch-wrapper {
   background: var(--bg, #2b3bff);
   color: var(--on-bg, #fffdf7);
   border-top: 4px solid var(--ink, #0e1033);
-  padding: 14px 20px calc(14px + env(safe-area-inset-bottom, 0px));
+  padding: 12px 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 12px 20px;
